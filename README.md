@@ -33,6 +33,13 @@ This time, if the user were to send the same input, rather than executing the qu
 **Should be:**             
 This time, if the user were to send the same input, rather than executing the query that the user embedded in the string, the SQL Server will insert a row into the Users table, with the Name column set to `'Bob'); DROP TABLE Users; --'`. This would obviously look a bit strange, but it wouldn't break the application or breach security.
 
+### Page 48 in printed book
+
+**It is:**             
+In the table listing database compatibility levels, the book says 120 as the Database compatibility level for SQL Server 2016.             
+
+**Should be:**             
+130 is the Database compatibility level for SQL Server 2016, the same as the CE version.  
 
 ### Page 115 in e-book :: 117 in printed book
 
