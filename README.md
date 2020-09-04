@@ -15,6 +15,15 @@ Foreword by Conor Cunningham, Partner Architect – SQL Server and Azure SQL –
 
 ## Errata
 
+### Pages 26, 30, and 38
+Regarding the text in the picture (bottom right box) in some reprints of the book.
+
+**It is:**
+Return plan in cache
+
+**Should be:**
+Return plan to cache
+
 ### Page 35 in e-book :: 36 in printed book
 
 **It is:**             
