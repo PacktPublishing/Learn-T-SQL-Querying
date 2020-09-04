@@ -41,6 +41,30 @@ In the table listing database compatibility levels, the book says 120 as the Dat
 **Should be:**             
 130 is the Database compatibility level for SQL Server 2016, the same as the CE version.  
 
+### Page 114
+
+**Missing content at the top of page 114**
+
+The query generates the following execution plan:
+ 
+ ![Qry_ANSI_NULLS_OFF](./media/Page114.png)
+
+And by setting ANSI_NULLS to OFF:
+
+```
+SET ANSI_NULLS OFF
+GO
+SELECT *
+FROM Sales.SalesOrderDetail AS sod
+INNER JOIN Production.Product AS p ON sod.ProductID = p.ProductID
+WHERE SellEndDate = NULL
+ORDER BY Style DESC
+OPTION (MAXDOP 1);
+GO
+```
+
+**Continues page 114**
+
 ### Page 115 in e-book :: 117 in printed book
 
 **It is:**             
