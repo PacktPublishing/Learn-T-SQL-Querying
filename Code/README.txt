@@ -1,0 +1,1 @@
+There are only two databases used in the entire book. There are no code files as its entirely based on executing SQL queries on SSMS.
